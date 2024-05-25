@@ -14,8 +14,6 @@ const ImageTooltip = ({seat}) => {
     const top = mousePosition.y + tooltipHeight > windowHeight ? mousePosition.y - tooltipHeight - 5 : mousePosition.y + 5;
     const left = mousePosition.x + tooltipWidth > windowWidth ? mousePosition.x - tooltipWidth - 5 : mousePosition.x + 5;
 
-    console.log(windowHeight)
-
     if(!seat) return;
 
     const hasImage = CONFIG.seatsWithImages.includes(seat);
