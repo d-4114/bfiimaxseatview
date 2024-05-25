@@ -1,6 +1,5 @@
 import { CONFIG } from "./config";
 
-
 const SeatCircle = (props) => {
     const { onSeatMouseEnter, onSeatMouseLeave } = props;
     const seat = `${props["data-seat-row"]}${props["data-seat-seat"]}`
