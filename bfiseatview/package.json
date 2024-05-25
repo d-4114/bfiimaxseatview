@@ -1,7 +1,7 @@
 {
   "name": "bfiseatview",
   "version": "0.1.0",
-  "homepage": "http://d-4114.github.io/bfiimaxseatview/",
+  "homepage": "https://d-4114.github.io/bfiimaxseatview/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
